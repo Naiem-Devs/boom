@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: 'Aber Mono';
+    src: url('../font/AberMono-Light.woff2') format('woff2'),
+        url('../font/AberMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aber Mono';
+    src: url('../font/AberMono-Bold.woff2') format('woff2'),
+        url('../font/AberMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Aber Mono';
+    src: url('../font/AberMono-Regular.woff2') format('woff2'),
+        url('../font/AberMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../font/Nohemi-Bold.woff2') format('woff2'),
+        url('../font/Nohemi-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../font/Nohemi-Medium.woff2') format('woff2'),
+        url('../font/Nohemi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../font/Nohemi-Light.woff2') format('woff2'),
+        url('../font/Nohemi-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nohemi';
+    src: url('../font/Nohemi-SemiBold.woff2') format('woff2'),
+        url('../font/Nohemi-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
