@@ -47,6 +47,8 @@ body {
 	font-family: "Nohemi-normal";
 	color: #000;
 	background: var(--thmWhite);
+	max-width: 1440px;
+	margin: auto;
 }
 
 img {
@@ -348,9 +350,9 @@ li {
 }
 
 .border-btn:hover {
-    background: var(--thmBlack);
-    color: var(--thmWhite);
-    border-color: var(--thmBlack);
+	background: var(--thmBlack);
+	color: var(--thmWhite);
+	border-color: var(--thmBlack);
 }
 
 .border-btn.red {
@@ -398,7 +400,7 @@ li {
 }
 
 .thm_btn.blue:hover {
-    background: var(--redColor);
+	background: var(--redColor);
 }
 
 .thm_btn.black {
@@ -406,7 +408,9 @@ li {
 	color: var(--thmWhite);
 }
 
-.thm_btn.black:hover {background: var(--blueColor);}
+.thm_btn.black:hover {
+	background: var(--blueColor);
+}
 
 .thm_btn.ylw {
 	background: var(--ylwColor);
@@ -427,12 +431,12 @@ li {
 }
 .thm_btn.red {
 	background: var(--redColor);
-	color: var(--thmBlack) !important;!i;!;
+	color: var(--thmBlack) !important;
 }
 
 .thm_btn.red:hover {
 	background: var(--blueColor);
-	color: var(--thmWhite) !important;!i;!;
+	color: var(--thmWhite) !important;
 }
 .f-56 {
 	font-size: var(--f56);
@@ -603,7 +607,9 @@ li {
 	justify-content: space-between;
 	height: 333px;
 }
-
+.org-item h3 {
+	line-height: 1;
+}
 .org-item p {
 	margin: 0;
 }
@@ -614,6 +620,7 @@ li {
 	display: block;
 	background: var(--blueColor);
 	border-radius: 50%;
+	margin-left: auto;
 }
 
 /*============ org-area End =============*/
@@ -1133,12 +1140,12 @@ li {
 }
 
 .email-box button.red {
-	color: var(--thmWhite) !IMPORTANT;!I;!;
+	color: var(--thmWhite) !important;
 }
 
 .email-box button.red:hover {
-    background: var(--thmWhite);
-    color: var(--thmBlack) !important;!i;!;
+	background: var(--thmWhite);
+	color: var(--thmBlack) !important;
 }
 
 .email-box input {
@@ -1270,6 +1277,8 @@ li {
 	grid-template-rows: repeat(5, 1fr);
 	gap: 0px;
 	margin-bottom: 24px;
+	max-width: 900px;
+	margin-inline: auto;
 }
 .Events__grid-item-1 {
 	grid-row: span 5 / span 5;
@@ -1279,13 +1288,16 @@ li {
 	grid-row: span 4 / span 4;
 	background: var(--thmBlack);
 	color: var(--thmWhite);
-	padding: 40px;
+	padding: 20px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	position: relative;
 }
-
+.Events__grid-item-3 a {
+	font-size: 14px;
+	padding: 10px 24px 8px;
+}
 .Events__grid-item-2 ul li {
 	display: flex;
 	align-items: center;
@@ -1353,7 +1365,7 @@ li {
 	align-items: center;
 	justify-content: center;
 	background: var(--colorDB);
-	padding: 20px 40px;
+	padding: 18px;
 	gap: 20px;
 	text-transform: uppercase;
 }
